@@ -1,41 +1,76 @@
-<section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>Peace of mind from prototype to production</p>
-</section>
-
-<section class="row">
-  <article class="column">
-    <h2>Resources</h2>
-    <ul>
-      <li>
-        <a href="https://hexdocs.pm/phoenix/overview.html">Guides &amp; Docs</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix">Source</a>
-      </li>
-      <li>
-        <a href="https://github.com/phoenixframework/phoenix/blob/v1.6/CHANGELOG.md">v1.6 Changelog</a>
-      </li>
-    </ul>
-  </article>
-  <article class="column">
-    <h2>Help</h2>
-    <ul>
-      <li>
-        <a href="https://elixirforum.com/c/phoenix-forum">Forum</a>
-      </li>
-      <li>
-        <a href="https://web.libera.chat/#elixir">#elixir on Libera Chat (IRC)</a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elixirphoenix">Twitter @elixirphoenix</a>
-      </li>
-      <li>
-        <a href="https://elixir-slackin.herokuapp.com/">Elixir on Slack</a>
-      </li>
-      <li>
-        <a href="https://discord.gg/elixir">Elixir on Discord</a>
-      </li>
-    </ul>
-  </article>
-</section>
+<div class="h-12 flex items-center">
+  <div class="mx-3">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+    </svg>
+  </div>
+</div>
+<div class="flex justify-center">
+  <div style="width: 550px">
+    <div class="mb-6 mt-4 text-3xl">John O'Nolan</div>
+    <div class="border-b font-bold mb-2 text-sm">FEATURES</div>
+    <%# POST #3 %>
+    <div class="py-4">
+      <div class="flex">
+        <div class="flex-grow">
+          <a href="https://www.youtube.com/watch?v=UctvN2s7cSE" class="font-semibold underline" target="_blank">
+            John O'Nolan (Ghost) on Pricing SaaS Products
+          </a>
+          <div class="flex mt-2 space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="flex-none h-6 mr-1 text-gray-400 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+            <div class="bg-purple-100 leading-relaxed px-2 text-purple-700 text-sm">
+              Rob Hope
+            </div>
+            <div class="bg-purple-100 leading-relaxed px-2 text-purple-600 text-sm">
+              Yo! Podcast
+            </div>
+          </div>
+        </div>
+        <div class="bg-center bg-cover flex-none h-16 ml-3 rounded w-16" style="background-image: url('https://i.ytimg.com/vi/UctvN2s7cSE/hqdefault.jpg')"></div>
+      </div>
+    </div>
+    <%# POST #2 %>
+    <div class="py-4">
+      <div class="flex">
+        <div class="flex-grow">
+          <a href="https://www.indiehackers.com/podcast/007-john-onolan-of-ghost" class="font-semibold underline" target="_blank">
+            Building an Open-Source Publishing Platform That Makes $63,000/mo with John O'Nolan of Ghost
+          </a>
+          <div class="flex mt-2 space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="flex-none h-6 mr-1 text-gray-400 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z" />
+            </svg>
+            <div class="bg-purple-100 leading-relaxed px-2 text-purple-700 text-sm">
+              Courtland Allen
+            </div>
+            <div class="bg-purple-100 leading-relaxed px-2 text-purple-600 text-sm">
+              Indie Hackers
+            </div>
+          </div>
+        </div>
+        <div class="bg-center bg-cover flex-none h-16 ml-3 rounded w-16" style="background-image: url('https://images.transistor.fm/file/transistor/images/episode/263449/thumb_1590257602-artwork.jpg')"></div>
+      </div>
+    </div>
+    <%# POST #1 %>
+    <div class="py-4">
+      <div class="flex">
+        <div class="flex-grow">
+          <a href="https://www.indiehackers.com/interview/how-john-onolan-grew-his-publishing-platform-to-750-000-year-14e5bac2fa" class="font-semibold underline" target="_blank">
+            How John O'Nolan Grew His Publishing Platform to $750,000/year
+          </a>
+          <div class="flex mt-2 space-x-1">
+            <svg xmlns="http://www.w3.org/2000/svg" class="flex-none h-6 mr-1 text-gray-400 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+            </svg>
+            <div class="bg-purple-100 leading-relaxed px-2 text-purple-600 text-sm">
+              Indie Hackers
+            </div>
+          </div>
+        </div>
+        <div class="bg-center bg-cover flex-none h-16 ml-3 rounded w-16" style="background-image: url('https://storage.googleapis.com/indie-hackers.appspot.com/content/ghost__features.jpg')"></div>
+      </div>
+    </div>
+  </div>
+</div>
