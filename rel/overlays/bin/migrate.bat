@@ -1,0 +1,1 @@
+call "%~dp0\hyper" eval Hyper.Release.migrate
